@@ -1,5 +1,5 @@
 ﻿# Clear Screen
-clear
+Clear-Host
 
 # Define and clear Variables
 $VarArray = ("Days"),("DisabledOu"),("ADPath"),("DisabledOuPath"),("OuTest"),("SAMnames")
