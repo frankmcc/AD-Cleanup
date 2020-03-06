@@ -6,4 +6,4 @@ There are 4 files here for Active Directory Cleanup.  The two XML files can be i
  
  Any questions?  Re-read this
  Other Questions - Re-Read the scripts
- Still more Questions - Come as Frank, just remember, I'm going to ask if you read the documentation.
+ Still more Questions - Send me an email...	
