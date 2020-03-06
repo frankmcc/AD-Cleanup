@@ -2,8 +2,8 @@
 Clear-Host
 
 # Define and clear Variables
-$VarArray = ("Days"),("DisabledOu"),("ADPath"),("DisabledOuPath"),("OuTest"),("SAMnames")
-Clear-Variable $VarArray
+# $VarArray = ("Days"),("DisabledOu"),("ADPath"),("DisabledOuPath"),("OuTest"),("SAMnames")
+# Clear-Variable $VarArray
 
 #  Make sure we load the AD Module
 Import-Module ActiveDirectory
@@ -20,7 +20,8 @@ $SAMnames = ("*HV*"),("*AD*")
 $DisabledOu = "!Disabled Users and Computers"
 
 # Domain Distinguished name 
-$ADPath = "DC=hollandcomputers,DC=net"
+$Root = [ADSI]"LDAP://RootDSE"
+$ADPath = $Root.rootDomainNamingContext
 
 #-----------Nothing below here should ever be changed --------------------#
 
