@@ -4,6 +4,6 @@ There are 4 files here for Active Directory Cleanup.  The two XML files can be i
  - These scripts must be run with administrative privileges
  - You can edit the variables in the scripts and should do so to fit the AD domain and structure you are working with.  The scripts are documented, just be sure to read them.
  
- Any questions?  Re-read this.
- Other Questions - Re-Read the scripts
- Still more Questions - Send me an email...	
+ - Any questions?  Re-read this.
+ - Other Questions - Re-Read the scripts
+ - Still more Questions - Send me an email...	
